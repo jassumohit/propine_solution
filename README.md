@@ -29,4 +29,13 @@ Web application solution using Robot Framework
   b. Chrome Browser  
   `robot --variable Browser:Chrome -d Results/ Tests/Web.robot`  
   c. Internet Explorer  
-  `robot --variable Browser:ie -d Results/ Tests/Web.robot`
+  `robot --variable Browser:ie -d Results/ Tests/Web.robot`  
+
+### Automation Report  
+
+Please refer the Results directory for full detailed report  
+
+- Refer `Results\report.html` for Summary information and brief test statistics  
+- Open `Results\log.html` for Test Statistics and Test Execution Log  
+- Also failed test case screenshots are embedded inside the test execution log of `log.html`  
+- Screenshots are saved at location `Results\Screenshots\` with there TestCase name
